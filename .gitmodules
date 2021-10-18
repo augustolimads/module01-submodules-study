@@ -1,0 +1,6 @@
+[submodule "module02-submodules-study"]
+	path = module02-submodules-study
+	url = https://github.com/augustolimads/module02-submodules-study
+[submodule "module03-submodules-study"]
+	path = module03-submodules-study
+	url = https://github.com/augustolimads/module03-submodules-study
