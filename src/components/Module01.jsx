@@ -1,4 +1,5 @@
 import React from "react";
+import { CounterButtons } from "./CounterButtons";
 import style from "./style.module.css";
 
 export const Module01 = ({ children, increase, decrease }) => {
@@ -6,14 +7,7 @@ export const Module01 = ({ children, increase, decrease }) => {
     <div className={style.card}>
       <h1>MODULE 01</h1>
       {children}
-      <div className={style.buttons}>
-        <button className={style.btn} onClick={increase}>
-          +
-        </button>
-        <button className={style.btn} onClick={decrease}>
-          -
-        </button>
-      </div>
+      <CounterButtons increase={increase} decrease={decrease} />
     </div>
   );
 };
