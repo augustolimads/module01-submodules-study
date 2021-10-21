@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+      "baseUrl": ".",
+      "paths": {
+        "src/*": ["./src/*"],
+        "src2/*": ["module02-submodules-study/src/*"],
+        "src3/*": ["module03-submodules-study/src/*"],
+      }
+    }
+  }
