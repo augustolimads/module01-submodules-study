@@ -18,7 +18,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Module01 increase={increase} decrease={decrease}>
-        <Module02 test={<Module03 counter={counter} />} />
+        <Module02 counter={counter} test={<Module03 counter={counter} />} />
       </Module01>
       <Module04 />
     </div>
